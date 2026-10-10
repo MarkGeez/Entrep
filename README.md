@@ -1,3 +1,14 @@
+How to clone and participate:
+
+git clone https://github.com/MarkGeez/Entrep.git
+
+Before making any edits, create a new branch. This keeps your new code isolated from the stable production code (usually called main or master).
+bash
+git checkout -b my-feature-branch
+
+
+AFTER THAT:
+
 Run this in the terminal:
 
 # 1. Enter the project directory
