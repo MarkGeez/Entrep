@@ -1,3 +1,33 @@
+Run this in the terminal:
+
+# 1. Enter the project directory
+cd your-project-name
+
+# 2. Install backend PHP dependencies
+composer install
+
+# 3. Install frontend dependencies (if the project has a package.json)
+npm install
+
+# 4. Copy the environment configuration file
+# For Mac/Linux:
+cp .env.example .env
+# For Windows (Command Prompt):
+copy .env.example .env
+
+# 5. Generate the application encryption key
+php artisan key:generate
+
+# 6. Run database migrations (make sure your DB credentials in .env are set up first!)
+php artisan migrate
+
+# 7. Start the local development server
+php artisan serve
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
