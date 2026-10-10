@@ -24,7 +24,11 @@ php artisan migrate
 # 7. Start the local development server
 php artisan serve
 
+# 1. Create and switch to the new local branch
+git switch -c your-new-branch
 
+# 2. Push the branch to GitHub and set it to track changes
+git push -u origin your-new-branch
 
 
 
